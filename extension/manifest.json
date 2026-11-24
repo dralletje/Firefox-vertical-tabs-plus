@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Opener: First Position",
+  "version": "1.6",
+  "description": "Opens new tabs at the top (below pinned tabs and any tab groups at the top), unless Firefox already places them somewhere better (e.g. next to the page that opened them).",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "new-tab-first-position-fork@local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
